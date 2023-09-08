@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Práctica #3 - API WEB</title>
+</head>
+<body>
+    <table style="width:80%;" align="center" border="2">
+        <tr>
+            <td colspan="4">&nbsp;Minimercado SuperMkD</td>
+            </td>
+        <tr>
+            <td colspan="4">&nbsp;</td>
+            </td>
+        <tr>
+            <td align="right" width="20%">Nro.Do.:&nbsp;</td>
+            <td>&nbsp;<input id="txtNroDoc" type="text" /></td>
+            <td align="right" width="20%">Nombre:&nbsp;</td>
+            <td>&nbsp;<input id="txtNroDoc" type="text" /></td>
+        </tr>
+        <tr>
+            <td align="right" width="20%">Clasificación.:&nbsp;</td>
+            <td>
+                &nbsp;
+                <select id="cmbClasif">
+                    <option value="10">Ordinario</option>
+                    <option value="5">Especial</option>
+                    <option value="1">Preferente</option>
+                </select>
+            </td>
+            <td align="right" width="20%">subTotal:&nbsp;</td>
+            <td>&nbsp;<input id="txtSubTotal" type="text" /></td>
+        </tr>
+        <tr>
+            <td colspan="4">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input id="btnLimpiar" type="button" value="Limpiar" />
+            </td>
+            <td colspan="2" align="center">
+                <input id="btnProcesar" type="button" value="Procesar" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">&nbsp;</td>
+        </tr>
+        <tr>
+        <tr>
+            <td align="right" width="20%">Porc. Descuento:&nbsp;</td>
+            <td>&nbsp;<input id="txtPorcDsc" type="text" readonly /></td>
+            <td align="right" width="20%">Valor Descuento:&nbsp;</td>
+            <td>&nbsp;<input id="txtVrDsc" type="text" readonly /></td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;</td>
+
+            <td align="right" width="20%">Valor a pagar:&nbsp;</td>
+            <td>&nbsp;<input id="txtVrAPag" type="text" readonly /></td>
+        </tr>
+    </table>
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script src="Scripts/ctlFrmSuperMkD.js"></script>
+</body>
+</html>

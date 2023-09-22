@@ -7,6 +7,7 @@ namespace apiSuperMkD.Models
 {
     public class modSuperMkD
     {
+        
         #region costructor
         public modSuperMkD(int tipoClasif, float subtotal, float porcDscto, float vrDsto, float vrAPagar, string error)
         {
